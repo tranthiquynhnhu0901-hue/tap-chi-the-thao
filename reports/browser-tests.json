@@ -1,0 +1,33 @@
+{
+  "passed": 25,
+  "total": 25,
+  "errors": [],
+  "method": "Historical UI-only tests on an earlier version; see image-audit-summary.json and browser-image-tests.json for new local-image verification.",
+  "historical_checks": {
+    "home_one_h1": true,
+    "home_cards": true,
+    "categories_nav": true,
+    "articles_json_48": true,
+    "home_has_site_intro": true,
+    "home_story_is_h2": true,
+    "font_variables_distinct": true,
+    "search_deadlift_1": true,
+    "category_3_cards": true,
+    "category_h1": true,
+    "category_page_2": true,
+    "article_has_5_links": true,
+    "article_h1_1": true,
+    "article_schema_data_loaded": true,
+    "mobile_home_overflow_none": true,
+    "mobile_article_overflow_none": true,
+    "mobile_article_links": true,
+    "cat_gym-fitness": true,
+    "cat_chay-bo": true,
+    "cat_pickleball": true,
+    "cat_cau-long": true,
+    "cat_bong-da": true,
+    "cat_boxing-vo-thuat": true,
+    "cat_dinh-duong": true,
+    "cat_dung-cu": true
+  }
+}

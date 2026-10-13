@@ -1,0 +1,22 @@
+{
+  "published_articles": 48,
+  "categories": 8,
+  "total_sporthub_link_occurrences": 240,
+  "unique_sporthub_destinations_used": 3,
+  "internal_article_links_in_body": 144,
+  "images_referenced_in_article_pages": 192,
+  "local_images": 48,
+  "unverified_sporthub_urls": 77,
+  "remote_photos_pending_load_verification": 0,
+  "local_image_files_verified": 48,
+  "invalid_sporthub_url_occurrences": 0,
+  "missing_internal_links_or_images": 0,
+  "articles_meeting_link_count": 48,
+  "articles_with_editorial_verification_pending": 48,
+  "article_word_count_range": [
+    1294,
+    1404
+  ],
+  "overall_technical_result": "PASS",
+  "browser_runtime_tests": "See reports/browser-tests.json; not part of this offline script."
+}

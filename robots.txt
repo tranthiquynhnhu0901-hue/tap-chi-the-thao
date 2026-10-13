@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tranthiquynhnhu0901-hue.github.io/tap-chi-the-thao/sitemap.xml

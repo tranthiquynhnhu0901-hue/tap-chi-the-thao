@@ -1,0 +1,16 @@
+document.addEventListener('DOMContentLoaded',()=>{
+const path=location.pathname, q=new URLSearchParams(location.search).get('q')||'';
+const byId=(id)=>document.getElementById(id);
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const card=(a,prefix)=>`<article class="story"><a href="${prefix}bai-viet/${a.slug}/"><img src="${a.heroImage.startsWith("http")?a.heroImage:prefix+a.heroImage}" alt="${escape(a.imageAlt)}" loading="lazy" width="1200" height="680"></a><span class="pill">${escape(a.categoryName)}</span><h3><a href="${prefix}bai-viet/${a.slug}/">${escape(a.title)}</a></h3><p>${escape(a.summary)}</p><div class="meta"><span>${a.publishedDate}</span><span>${a.wordCount} từ</span></div></article>`;
+const rootPrefix=path.includes('/chuyen-muc/')?'../../':'';
+const dataUrl=rootPrefix+'data/search-index.json';
+if(byId('category-cards')||byId('search-cards')){
+fetch(dataUrl).then(r=>r.json()).then(data=>{
+ if(byId('category-cards')){const cat=path.match(/\/chuyen-muc\/([^/]+)\//)?.[1];const subset=data.filter(a=>a.category===cat);const buttons=byId('pagination');function draw(p){byId('category-cards').innerHTML=subset.slice((p-1)*3,p*3).map(a=>card(a,'../../')).join('');buttons.querySelectorAll('button').forEach(b=>{b.classList.toggle('current',+b.dataset.page===p);b.setAttribute('aria-current',+b.dataset.page===p?'page':'false')});history.replaceState(null,'',location.pathname+(p===1?'':'?page='+p));} buttons.addEventListener('click',ev=>{if(ev.target.dataset.page){draw(+ev.target.dataset.page);byId('category-cards').scrollIntoView({block:'start'});}});draw(Math.min(2,Math.max(1,+new URLSearchParams(location.search).get('page')||1)))}
+ if(byId('search-cards')){const normalized=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/đ/g,'d');const matched=data.filter(a=>normalized(a.title+' '+a.summary+' '+a.categoryName+' '+a.primaryKeyword).includes(normalized(q)));byId('search-title').textContent=q?'Kết quả cho “'+q+'”':'Tất cả bài viết';byId('search-count').textContent=matched.length+' bài viết';byId('search-cards').innerHTML=matched.length?matched.map(a=>card(a,'')).join(''):'<div class="empty"><h2>Chưa tìm thấy bài phù hợp.</h2><p>Thử từ khóa ngắn hơn hoặc chọn một chuyên mục ở thanh điều hướng.</p></div>';document.querySelector('input[name=q]').value=q;}
+}).catch(()=>{if(byId('search-cards'))byId('search-cards').innerHTML='<p>Không tải được chỉ mục tìm kiếm. Hãy thử tải lại trang.</p>';});}
+document.querySelectorAll('[data-copy-url]').forEach(b=>b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);b.textContent='✓ Đã sao chép'}catch{window.prompt('Sao chép đường dẫn:',location.href)}}));
+document.querySelectorAll('[data-share]').forEach(b=>b.addEventListener('click',async()=>{if(navigator.share){try{await navigator.share({title:document.title,url:location.href})}catch{}}else{try{await navigator.clipboard.writeText(location.href);b.textContent='✓ Đã sao chép liên kết'}catch{window.prompt('Sao chép đường dẫn:',location.href)}}}));
+});
+window.addEventListener('error',function(ev){if(ev.target&&ev.target.tagName==='IMG'){let wrap=ev.target.closest('figure,.story,.lead-story,.side-feature,.category-tile,a');if(wrap)wrap.classList.add('photo-unavailable');}},true);

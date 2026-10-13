@@ -1,0 +1,11 @@
+{
+  "published_articles": 48,
+  "stored_webp_images": 48,
+  "distinct_image_hashes": 48,
+  "total_image_bytes": 2293396,
+  "source_type": "AI-generated, photorealistic illustration; not genuine photography",
+  "original_unsplash_photo_urls_used": 0,
+  "original_unsplash_photo_urls_previous_version": 31,
+  "source_docs": "reports/image-attribution.csv",
+  "previous_photo_urls": "reports/previous-remote-images.csv"
+}

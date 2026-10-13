@@ -1,0 +1,17 @@
+{
+  "pages_audited": 60,
+  "published_articles": 48,
+  "categories": 8,
+  "passed": 60,
+  "failed": 0,
+  "indexable_urls": 58,
+  "sitemap_urls": 58,
+  "sitemap_exactly_matches_indexable": true,
+  "noindex_pages": [
+    "404.html",
+    "tim-kiem.html"
+  ],
+  "canonical_base": "https://tranthiquynhnhu0901-hue.github.io/tap-chi-the-thao/",
+  "unchecked_external_assets": "All article images are bundled; Google Fonts may require network access",
+  "seo_score": "Not a Google score"
+}

@@ -1,0 +1,546 @@
+{
+  "source": "Danh sách 5 trang chính và mẫu URL 52 sản phẩm / 20 blog từ tài liệu yêu cầu; không có sitemap liệt kê từng URL riêng lẻ.",
+  "checked_at": "2026-10-14",
+  "verification_note": "Không truy cập xác minh được các trang SPORTHUB; tên sản phẩm/bài blog để trống, không dùng các URL mã sản phẩm hoặc ID blog trong bài.",
+  "links": [
+    {
+      "id": "home",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/",
+      "type": "page",
+      "verification": "unverified",
+      "title": "Trang chủ SPORTHUB"
+    },
+    {
+      "id": "shop",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/shop.html",
+      "type": "page",
+      "verification": "unverified",
+      "title": "Cửa hàng SPORTHUB"
+    },
+    {
+      "id": "blog",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog.html",
+      "type": "page",
+      "verification": "unverified",
+      "title": "Trang tổng hợp blog SPORTHUB"
+    },
+    {
+      "id": "about",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/gioi-thieu/",
+      "type": "page",
+      "verification": "unverified",
+      "title": "Giới thiệu SPORTHUB"
+    },
+    {
+      "id": "contact",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/lien-he/",
+      "type": "page",
+      "verification": "unverified",
+      "title": "Liên hệ SPORTHUB"
+    },
+    {
+      "id": "P01",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P01",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P02",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P02",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P03",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P03",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P04",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P04",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P05",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P05",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P06",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P06",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P07",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P07",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P08",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P08",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P09",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P09",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P10",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P10",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P11",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P11",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P12",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P12",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P13",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P13",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P14",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P14",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P15",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P15",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P16",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P16",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P17",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P17",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P18",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P18",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P19",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P19",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P20",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P20",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P21",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P21",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P22",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P22",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P23",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P23",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P24",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P24",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P25",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P25",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P26",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P26",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P27",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P27",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P28",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P28",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P29",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P29",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P30",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P30",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P31",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P31",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P32",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P32",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P33",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P33",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P34",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P34",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P35",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P35",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P36",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P36",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P37",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P37",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P38",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P38",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P39",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P39",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P40",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P40",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P41",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P41",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P42",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P42",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P43",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P43",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P44",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P44",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P45",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P45",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P46",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P46",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P47",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P47",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P48",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P48",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P49",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P49",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P50",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P50",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P51",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P51",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "P52",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/product.html?id=P52",
+      "type": "product",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-1",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=1",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-2",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=2",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-3",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=3",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-4",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=4",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-5",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=5",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-6",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=6",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-7",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=7",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-8",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=8",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-9",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=9",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-10",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=10",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-11",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=11",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-12",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=12",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-13",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=13",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-14",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=14",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-15",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=15",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-16",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=16",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-17",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=17",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-18",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=18",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-19",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=19",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    },
+    {
+      "id": "blog-20",
+      "url": "https://tranthiquynhnhu0901-hue.github.io/shopthethao/blog-detail.html?id=20",
+      "type": "blog",
+      "verification": "unverified",
+      "title": null
+    }
+  ]
+}
